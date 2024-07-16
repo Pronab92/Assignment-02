@@ -1,0 +1,12 @@
+/*css file for Assignment 02*/
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    min height: 960px;
+    border:2px solid blue;
+    
+}
