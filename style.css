@@ -1,68 +1,122 @@
 /*css file for Assignment 02*/
+/*universal code for web page */
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+/* htm body style code*/
 body{
     width: 992px;
      height: auto;
     border:2px solid blue;
     margin:0px auto;
     background: #000000;
+    /*body part code end*/
     
 }
 
-.head-section{
-    background: #212121;
-    border: 2px solid red;
-    width: 980px;
-    height: auto;
+
+ 
+.baner-headings{
+    /* styling code for header banner image text*/
+
+  color:white;
+  
+  font-size: 50px;
+  line-height: 40px;
+  width: 280px;
+  margin-top: 50px;
+border: 2px solid rebeccapurple;
+background: #222222;
+margin-bottom: 25px;
+   /*banner text part end*/
+    
+    
    
+   
+   
+
+    
 }
 
-nav{
+.baner-img{
+    /*banner image style code*/
+    
+    border-radius: 20%;
+    
+    width: 350px;
+    height:300px;
+    margin-top: 50px;
+   background: #202020;
+   /* style end*/
+}
+
+.header-wraper{
+    /*flex container for banner content*/
+    border: 10px solid navajowhite;
+    height: 400px;
+    width: 992px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    background: #212121;
+    /*banner raper end*/
+
+    
+}
+nav{
+    /* Navigation bar*/
+  
     border:2px solid pink;
     margin-left: 0%;
-   align-items: center;
+    display: flex;
+    justify-content: end;
+    background: #141414;
+  
     
 }
-.head-text{
+.nav-text{
     color:#8D3A2D;
     font-style: italic;
     font-size:25px;
     padding: 5px;
+    margin-right: 550px;
    
 }
 nav a{
     text-decoration: none;
     color: white;
-    border: 2px dotted #171717;
-    text-align: right;
-    border-radius: 50%;
+    
+    border-radius: 5%;
     padding: 5px;
-    font-size:15px;
-    
-    
-    
+    font-size: 18px;
    
+    margin-right: 20px;
+    
+    
+   /* navigation section design end/*
     
     
 }
+/*home button color add style */
 .link-color{
     background:#8D3A2D; 
     padding: 5px;;
     border-radius: 10px;
+    /*end*/
 }
 
 .club{
+    /* join our club button style*/
     color: white;
     font-size:20px;
     margin-right: 15px;
     padding: 20px;
     border-radius: 40px;
+    /*end*/
+}
+.btn-wrap{
+    
 }
 
 .text-btn{
@@ -135,7 +189,7 @@ width: 200px;
 }
 
 
-
+/*Meet Our team section*/
 .our_team{
     width: 700px;
     height: 450px;
@@ -165,6 +219,7 @@ width: 200px;
     background: #222222;
     border-radius: 15px;
     padding: 5px;
+    /*meet our team section end*/
 }
 .description{
     color: #6C6C6C;
@@ -174,6 +229,7 @@ width: 200px;
 
 }
 .coppyright{
+    /* Copy right section*/
     color: white;
     text-align: center;
     margin-top: 15px;
@@ -183,8 +239,10 @@ width: 200px;
 }
 hr{
     background: #222;
+    /*copy right end*/
 }
 .run-container{
+    /* run a Extra mille section design*/
     color:white;
     display: flex;
     border: 5px dotted yellow;
@@ -222,5 +280,12 @@ hr{
     height: 75px;
     text-align: center;
     margin-top: 20px;
+    /*run section end*/
 
 }
+.s-h{
+    font-weight: 400;
+    color:red;
+    
+}
+
