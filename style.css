@@ -1,5 +1,11 @@
 /*css file for Assignment 02*/
 /*universal code for web page */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin:0;
     padding: 0;
@@ -12,6 +18,10 @@ body{
     border:2px solid blue;
     margin:0px auto;
     background: #000000;
+    font-family: "Poppins", sans-serif;
+  
+  font-style: normal;
+    
     /*body part code end*/
     
 }
@@ -80,7 +90,7 @@ nav{
     font-style: italic;
     font-size:25px;
     padding: 5px;
-    margin-right: 550px;
+    margin-right: 500px;
    
 }
 nav a{
@@ -353,10 +363,16 @@ hr{
 
 }
 .s-h{
-    font-weight: 400;
+    font-weight: 300;
     color:red;
-    
+   
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  margin-top: 15px;
 }
+
 /*BMI Calculator CSS Part*/
 table{
     color: white;
@@ -441,6 +457,6 @@ table th{
     padding: 5px;
     border-radius: 10px;
     background: #E6533C;
-    margin:10px auto; 
+    margin:5px auto; 
     text-align: center;
 }
