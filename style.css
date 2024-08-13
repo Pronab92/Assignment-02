@@ -13,9 +13,9 @@
 }
 /* htm body style code*/
 body{
-    width: 992px;
+    width: 993px;
      height: auto;
-    border:2px solid blue;
+    border:2px solid transparent;
     margin:0px auto;
     background: #000000;
     font-family: "Poppins", sans-serif;
@@ -37,7 +37,7 @@ body{
   line-height: 40px;
   width: 280px;
   margin-top: 50px;
-border: 2px solid rebeccapurple;
+
 background: #222222;
 margin-bottom: 25px;
    /*banner text part end*/
@@ -64,9 +64,9 @@ margin-bottom: 25px;
 
 .header-wraper{
     /*flex container for banner content*/
-    border: 10px solid navajowhite;
+    
     height: 400px;
-    width: 992px;
+    width: 993px;
     display: flex;
     justify-content: space-between;
     background: #212121;
@@ -77,8 +77,8 @@ margin-bottom: 25px;
 nav{
     /* Navigation bar*/
   
-    border:2px solid pink;
-    margin-left: 0%;
+  
+    margin-left: 10px;
     display: flex;
     justify-content: end;
     background: #141414;
@@ -203,7 +203,7 @@ width: 200px;
 .our_team{
     width: 700px;
     height: 450px;
-    border: 5px solid violet;
+    border: 5px solid transparent;
     margin: 20px auto;
     margin-bottom: 5px;
 }
@@ -212,7 +212,7 @@ width: 200px;
     height: 150px;
     border-radius: 15px;
     margin: 5px;  
-
+   
 }
 .team_heading{
     color: white;
@@ -224,7 +224,20 @@ width: 200px;
     background: #222222;
     border-radius: 15px;
     padding: 5px;
+    position: relative;
     /*meet our team section end*/
+}
+.insider-text{
+    position: absolute;
+    color: white;
+    bottom: 18px;  
+    left: 40px;
+    font-size: 14px;
+
+
+}
+.text-opacity{
+    opacity: 0.5;
 }
 .description{
     color: #6C6C6C;
@@ -239,7 +252,7 @@ width: 200px;
     justify-content: space-around;
     width: 992px;
     height: auto;
-    border: 5px dotted peru;
+    
     margin-top: 10px;
     
 }
@@ -269,7 +282,7 @@ width: 200px;
 .lrg-footer{
     width:300px;
     height: 200px;
-    border: 3px dashed olive;
+    
     color:white;
     font-size: 15px;
     line-height: 25px;
@@ -277,7 +290,7 @@ width: 200px;
 .important-links1{
     width:200px;
     height: 200px;
-    border: 3px dashed turquoise;
+    
     color:white;
     font-size: 20px;
     line-height: 20px;
@@ -286,7 +299,7 @@ width: 200px;
 .important-links2{
     width:200px;
     height: 200px;
-    border: 3px dashed aquamarine;
+    
     color:white;
     font-size: 20px;
     line-height: 20px;
@@ -324,7 +337,7 @@ hr{
     /* run a Extra mille section design*/
     color:white;
     display: flex;
-    border: 5px dotted yellow;
+   
     justify-content: space-around;
     background: #222222;
     border-radius: 20px;
@@ -391,7 +404,7 @@ table th{
 .bmi-calculator{
     color:white;
     margin:25px auto;
-    border: 2px solid orange;
+   
     background: #222222;
     
 }
@@ -403,7 +416,7 @@ table th{
 .calculator-father{
    
     width: 992px;
-    border: 1px solid tomato;
+    
     display: flex;
 }
 .bmi-text{
@@ -424,7 +437,7 @@ table th{
     margin-bottom: 5px;
 }
 .calculate-bmi{
-    border: 2px dashed palegreen;
+    margin: 10px;
     position: relative;
     width: 500px;
     height: 300px;
@@ -460,3 +473,49 @@ table th{
     margin:5px auto; 
     text-align: center;
 }
+.MemberShip{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    border: 2px solid transparent;
+}
+/*hover effects added for pricing section*/
+.MemberShip:hover{
+    color: yellow;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    background: url(images/Pricing_bg3.jpg);
+    border-radius: 15%;;
+}
+.plans{
+    color:white;
+}
+.plans>ul>li{
+    font-size: 16px;
+}
+.plans>h3{
+    font-size: 30px;
+}
+.plans>p{
+    font-size: 25px;
+}
+.Pricing-head{
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+/*hover effects for enroll now button*/
+    .effect:hover{
+        background: yellowgreen;
+        padding: 10px;
+    }
+    .img-text{
+        position: relative;
+        color:white;
+    }
+    .img-container{
+        position: relative;
+    }
